@@ -1,16 +1,16 @@
 package ru.skypro.Level_Nedium;
-public class FullName {
+public class Person {
     private final String firstName;
-    private String middleName;
+    private final String middleName;
     private final String surname;
 
-    public FullName(String firstName, String middleName, String surname) {
+    public Person(String firstName, String middleName, String surname) {
         this.firstName = firstName;
         this.middleName = middleName;
         this.surname = surname;
     }
 
-    public FullName(String firstName, String surname) {
+    public Person(String firstName, String surname) {
         this.firstName = firstName;
         this.middleName = " ";
         this.surname = surname;
